@@ -1,0 +1,67 @@
+p{
+    color: white;
+    background-color: blue;
+}
+
+/* selecting using id */
+
+#testing1{
+    color: red;
+}
+
+
+#testing2{
+    color: green;
+}
+
+/* apply to whole index.html */
+/* *{
+    background-color: greenyellow;
+} */
+
+input[type="text"]{
+    border: 1px solid #ccc;
+    color: black;
+}
+
+.division1{
+    background-color: red;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Flexbox */
+.flexbox{
+    background-color: beige;
+    padding : 0.5%;
+    margin : 5px;
+    border : 10px black solid;
+}
+
+.list1{
+    display: flex; /* Establishes a flex container */
+    justify-content: space-around; /* Aligns items along the main axis */
+    align-items: center; /*Aligns items along the cross axis */
+    flex-direction: row; /*Align items in row (default) */
+    flex-wrap: wrap; /*Align items to wrap to the next line */
+}
+
+.division2{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.division3{
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    justify-content: center;
+}
+
+.button{
+    background-color: blue;
+    color: white;
+    transition: background-color 0.3 ease-in-out;
+}
+.button:hover{
+    background-color: red;
+}
